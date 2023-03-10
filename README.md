@@ -16,10 +16,10 @@ Build Steps
 -----------------------
 
 1. Open the project in container.
-2. Create a new folder named 'build' [code] mkdir build
-3. Enter the 'build' folder [code] cd build
-4. Config the project. [code] cmake ..
-5. Create Executable file. [code] make
+2. Create a new folder named 'build' [code: mkdir build]
+3. Enter the 'build' folder [code: cd build]
+4. Config the project. [code: cmake ..]
+5. Create Executable file. [code: make]
 
 
 Instruction for Use
@@ -28,10 +28,11 @@ Instruction for Use
 Example command to run 'gofSimulator'. (When you are in the directory 'build')
 
 1. View usage information
-[code] ./bin/gofSimulator
-[code] ./bin/gofSimulator -h
-[code] ./bin/gofSimulator --help
-[Output]
+code: 
+./bin/gofSimulator
+./bin/gofSimulator -h
+./bin/gofSimulator --help
+Output:
 Usage: ./bin/gofSimulator <option(s)> SOURCES 
 Option 1:
         Starting by entering (1) '.txt' file path (2)  Number of Generations. 
